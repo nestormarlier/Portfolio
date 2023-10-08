@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import home
+from .views import home,pag404
 
 urlpatterns = [
-    path('portfolio/', home, name='home'),
+    path('', home, name='home'),
+    path('404/', pag404, name='404'),
 ]
