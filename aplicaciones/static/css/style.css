@@ -1,14 +1,19 @@
 body {
     font-family: Arial, sans-serif;
+    width: auto;
+    height: auto;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
     background-color: #232122;
-    color: #fff;
-    padding: 20px;
+    color: #919091;
+    padding: 10px;
     text-align: center;
 }
 
@@ -30,7 +35,7 @@ h1 {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007BFF;
-    color: #fff;
+    color: #919091;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -41,8 +46,11 @@ h1 {
     background-color: #0056b3;
 }
 
+ul {
+    list-style-type:circle; /* Establece el tipo de viñeta (puedes cambiarlo si lo deseas) */
+}
 .nombre a {
-    color: #fff;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
