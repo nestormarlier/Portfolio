@@ -1,8 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    width: auto;
-    height: auto;
-    background-color: #f4f4f4;
+* {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +9,21 @@ header {
     align-items: center;
     background-color: #232122;
     color: #919091;
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.main-content {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
     text-align: center;
 }
 
@@ -21,30 +31,6 @@ header {
     color: #007BFF;
 }
 
-h1 {
-    font-size: 36px;
-}
-
-.container {
-    max-width: 670px;
-    margin: 0 auto;
-    padding: 40px;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #919091;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
 
 ul {
     list-style-type:circle; /* Establece el tipo de viñeta (puedes cambiarlo si lo deseas) */
@@ -62,9 +48,6 @@ ul {
 
 .lista-proyectos {
     background-size:auto;
-    width: auto;
-    height: 200px;
-    background-position: center;
     color:BLACK;
     text-align: center;
     padding: 15px 10px;
@@ -75,6 +58,10 @@ ul {
     font-size: 28px; /* Tamaño de los iconos */
 }
 
+.icon-footer {
+    font-size: 28px; /* Tamaño de los iconos del footer */
+    align-items: center;
+}
 .redes-sociales i {
     margin: 0 10px; /* Espacio entre los iconos */
     color: whitesmoke; /* Color de los iconos */
@@ -83,29 +70,12 @@ ul {
     color: #007BFF; /* Color de los iconos */
 }
 
-/* Estilos CSS para pantallas grandes */
-.contacto {
-    display: flex;
-    align-items: center;
-}
-
 .icono-telefono {
     font-size: 24px;
     margin-right: 10px;
 }
 
-/* Estilos CSS para pantallas pequeñas (móviles) */
-@media screen and (max-width: 768px) {
-    .contacto {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .icono-telefono {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-}
 .nombre {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
