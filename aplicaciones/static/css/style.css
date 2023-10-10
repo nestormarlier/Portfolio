@@ -19,8 +19,9 @@ header {
 	text-align: center;
 }
 
-.footer {
+.foot {
     bottom: 0;
+    height: 100;
     width: 100%;
     background-color: #333; /* Cambia el color de fondo según tus preferencias */
     color: white; /* Cambia el color del texto según tus preferencias */
@@ -30,7 +31,6 @@ header {
 .nombre :hover {
     color: #007BFF;
 }
-
 
 ul {
     list-style-type:circle; /* Establece el tipo de viñeta (puedes cambiarlo si lo deseas) */
@@ -58,10 +58,6 @@ ul {
     font-size: 28px; /* Tamaño de los iconos */
 }
 
-.icon-footer {
-    font-size: 28px; /* Tamaño de los iconos del footer */
-    align-items: center;
-}
 .redes-sociales i {
     margin: 0 10px; /* Espacio entre los iconos */
     color: whitesmoke; /* Color de los iconos */
@@ -69,6 +65,8 @@ ul {
 .redes-sociales :hover {
     color: #007BFF; /* Color de los iconos */
 }
+
+
 
 .icono-telefono {
     font-size: 24px;
