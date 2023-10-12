@@ -58,6 +58,14 @@ ul {
     font-size: 28px; /* Tamaño de los iconos */
 }
 
+.tel {
+    font-size: 14px; /* Tamaño del icono del telefono y el numero */
+}
+
+a:link {
+    text-decoration: none;
+    }
+
 .redes-sociales i {
     margin: 0 10px; /* Espacio entre los iconos */
     color: whitesmoke; /* Color de los iconos */
