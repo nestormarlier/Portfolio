@@ -1,5 +1,5 @@
 # Entorno virtual (virtualenv o venv)
-portenv/
+envportfolio/
 
 # Archivos y directorios generados por Django
 __pycache__/
